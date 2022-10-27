@@ -1,0 +1,1173 @@
+
+/* DATE: 31 Juillet 2022*/
+@font-face {
+    font-family: Euclid-Semi-bold;
+    src: url(/fonts/Euclid\ Circular\ B\ SemiBold.ttf);
+
+    font-family: Euclid-medium;
+    src: url(/fonts/Euclid\ Circular\ B\ Medium.ttf);
+
+    font-family: Euclid-regular;
+    src: url(/fonts/Euclid\ Circular\ B\ Regular.ttf);
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+
+#container{
+    height:100vh;
+    position:sticky;
+    overflow-y: scroll;
+scroll-snap-type: y mandatory;
+
+}
+.section-1{
+    height: 100vh;
+    width: 100vh;
+    scroll-snap-align: center;
+}
+
+
+.bg-section1{
+    /* bg 3 */
+position: absolute;
+width: 1272.25px;
+height: 1204.96px;
+left: 656px;
+top: -107.19px;
+
+/* #D9F4FF */
+background: #D9F4FF;
+transform: rotate(-8.4deg);
+}
+
+.nufruit {
+    /* nufruit */
+position: absolute;
+width: 73px;
+height: 30px;
+left: 90px;
+top: 57px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.05em;
+
+color: #000000;
+}
+
+.nav-our-app{
+    /* Position du bloc "OUR APP" sur ma apge */
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    left: 304px;
+    top: 60px;
+
+    /* Our app ,le texte */
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+letter-spacing: -0.05em;
+
+color: #0B0736;
+    
+}
+
+.nav-our-app-box{
+
+/* Rectangle 1 */
+box-sizing: border-box;
+position: absolute;
+width: 130px;
+height: 61px;
+left: 275px;
+top: 42px;
+
+border: 1px solid #E6E6E6;
+border-radius: 16px;
+}
+
+.nav-our-app-box-vector{
+     /* Groupe des vecteurs */
+position: absolute;
+width: 21px;
+height: 21px;
+left: 304px;
+top: 62px;
+
+}
+
+/* POINT VECTORIELS SVG CSS
+.nav-our-app-box-vector div svg :nth-child(1){
+
+}
+.nav-our-app-box-vector div  svg:nth-child(2){
+    
+}
+.nav-our-app-box-vector div :nth-child(3){
+    
+}
+.nav-our-app-box-vector div :nth-child(4){
+    
+}
+*/
+
+/*.section-1-main-elements{
+position: absolute;
+width: 513px;
+height: 442px;
+left: 280px;
+top: 306px;
+}
+*/
+h1{
+    /* Life Changing weight loss. */
+
+
+position: absolute;
+width: 513px;
+height: 256px;
+left: 280px;
+top: 306px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 85px;
+/* or 95% */
+
+letter-spacing: -0.02em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+
+h1+p {
+    /* Tracking made easy */
+position: absolute;
+width: 241px;
+height: 33px;
+left: 280px;
+top: 598px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #0B0736;
+}
+.banana{
+    /* 🍌 */
+position: absolute;
+width: 44px;
+height: 44px;
+left: 532px;
+top: 595px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 56px;
+letter-spacing: -0.01em;
+}
+.rectangle-jaune{
+    /* Rectangle jaune */
+position: absolute;
+width: 52px;
+height: 2px;
+left: 466px;
+top: 633px;
+
+/* #FFD32C */
+
+background: #FFD32C;
+}
+
+.rectangle-bleu{
+    /* Rectangle bleu */
+
+position: absolute;
+width: 186px;
+height: 81px;
+left: 280px;
+top: 667px;
+
+/* #130F49 */
+
+background: #130F49;
+border-radius: 20px;
+}
+
+a{
+    /* Start Now */
+text-decoration: none;
+position: absolute;
+width: 132px;
+height: 23px;
+left: 307px;
+top: 696px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+img{
+    /* image 1 */
+position: absolute;
+width: 1083px;
+height: 1285px;
+left: 554px;
+top: -48px;
+margin-left: 20px;
+}
+
+
+#bg-blue{
+    /*Background-blue*/
+    margin-left: 750px;
+}
+
+
+/*CSS DE LA SECTION 2 */
+
+.section-2{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.section-2-cotainer{
+    /*  */
+position: absolute;
+width: 1040px;
+height: 501px;
+left: 280px;
+top: 1116px;
+
+}
+
+#H2-section-2{
+    /* Set your own targets. */
+
+position: absolute;
+width: 388px;
+height: 128px;
+left: 923px;
+top: 1154px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 68px;
+line-height: 64px;
+/* or 94% */
+
+letter-spacing: -0.02em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+
+.ellipse-rose{
+    /* Ellipse 2 */
+
+position: absolute;
+width: 501px;
+height: 501px;
+left: 280px;
+top: 1116px;
+/* arrondir mon carré */
+border-radius: 290px;
+
+/* #FECFD0 */
+background: #FECFD0;
+
+}
+
+.img-section2{
+    /* image 2 */
+position: absolute;
+width: 266px;
+height: 596px;
+left: 386px;
+top: 1223px;
+
+
+}
+
+
+H2+p{
+    /* Our Well Balanced goal is the one we recommend for most people. However, if you have specific dietary requirements. */
+
+
+position: absolute;
+width: 397px;
+height: 140px;
+left: 923px;
+top: 1323px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+/* or 145% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+#rectangle-bleu-section-2{
+    /* Rectangle 3 */
+position: absolute;
+width: 186px;
+height: 76px;
+left: 923px;
+top: 1504px;
+
+/* #CCE8FD */
+
+background: #CCE8FD;
+border-radius: 20px;
+}
+
+.rectangle-bleu-texte-light{
+    /* Get on the */
+position: absolute;
+width: 68px;
+height: 35px;
+left: 983px;
+top: 1512px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* identical to box height, or 249% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+.rectangle-bleu-texte-bold{
+    /* App Store */
+
+position: absolute;
+width: 88px;
+height: 35px;
+left: 983px;
+top: 1533px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 35px;
+/* identical to box height, or 183% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+/*
+#apple-logo{
+
+position: absolute;
+left: 58.88%;
+right: 39.55%;
+top: 34.07%;
+bottom: 65.41%;
+
+background: #130F49;
+}
+*/
+
+
+.section-3{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+#bg-yellow-section3{
+    margin-top: 350px;
+}
+.section-3 h2{
+    /* Track anywhere, anytime. */
+
+
+position: absolute;
+width: 513px;
+height: 231px;
+left: 280px;
+top: 1807px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 85px;
+line-height: 77px;
+/* or 90% */
+
+letter-spacing: -0.02em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+
+
+
+.rectangles-section3 div:nth-child(1){
+    /* Rectangle 1 */
+
+position: absolute;
+width: 148px;
+height: 226px;
+left: 361px;
+top: 2157px;
+
+background: #FFFFFF;
+border-radius: 29px;
+}
+.rectangles-section3 div:nth-child(2){
+    /* Rectangle 2 */
+
+
+position: absolute;
+width: 148px;
+height: 226px;
+left: 530px;
+top: 2197px;
+
+background: #FFFFFF;
+border-radius: 29px;
+}
+.rectangles-section3 div:nth-child(3){
+    /* Rectangle 3 */
+
+position: absolute;
+width: 148px;
+height: 226px;
+left: 361px;
+top: 2404px;
+
+background: #FFFFFF;
+border-radius: 29px;
+}
+.rectangles-section3 div:nth-child(4){
+    /* Rectangle 4 */
+
+position: absolute;
+width: 148px;
+height: 226px;
+left: 530px;
+top: 2444px;
+
+background: #FFFFFF;
+border-radius: 29px;
+}
+
+
+.section-3 H3{
+    /* Over 250,000 foods with photos. Plus barcode scanning App. */
+
+
+position: absolute;
+width: 396px;
+height: 202px;
+left: 898px;
+top: 1905px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+/* or 126% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+
+#losange-rose{
+    /* losange rose de la section 3 */
+
+
+position: absolute;
+width: 60.65px;
+height: 60.65px;
+left: 898px;
+top: 2221px;
+
+/* #FECFD0 */
+
+background: #FECFD0;
+border-radius: 20px;
+transform: rotate(-45deg);
+}
+
+#losange-jaune{
+    /* losange jaune de la section 3 */
+
+
+position: absolute;
+width: 60.65px;
+height: 60.65px;
+left: 898px;
+top: 2450.89px;
+
+/* #FEDFB1 */
+
+background: #FEDFB1;
+border-radius: 20px;
+transform: rotate(-45deg);
+}
+
+.text-bold-right1{
+    /* Our Well Balanced */
+
+
+position: absolute;
+width: 206px;
+height: 34px;
+left: 1016px;
+top: 2202px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.01em;
+
+color: #130F49;
+}
+
+.text-light-right1{
+    /* Goal is the one we recommend for most people. However, if you have specific dietary requirements. */
+
+
+position: absolute;
+width: 304px;
+height: 118px;
+left: 1016px;
+top: 2249px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+letter-spacing: -0.01em;
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+
+
+.text-bold-right2{
+    /* Barcode Scanner */
+
+
+position: absolute;
+width: 192px;
+height: 34px;
+left: 1016px;
+top: 2431.89px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.01em;
+
+color: #130F49;
+}
+
+
+
+.text-light-right2{
+    /* App on your phone or tablet. Or keep a food diary online via the website – whichever suits you best. */
+
+position: absolute;
+width: 304px;
+height: 118px;
+left: 1016px;
+top: 2478.89px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+letter-spacing: -0.01em;
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+#section-bananas:nth-child(1){
+    position: absolute;
+width: 102px;
+height: 97px;
+left: 370px;
+top: 2195px;
+}
+
+#section-bananas:nth-child(2){
+/* image 4 */
+position: absolute;
+width: 102px;
+height: 97px;
+left: 535px;
+top: 2235px;
+}
+
+#section-bananas:nth-child(3){
+/* image 4 */
+
+
+position: absolute;
+width: 98px;
+height: 93px;
+left: 365px;
+top: 2442px;
+}
+
+#section-bananas:nth-child(4){
+/* image 4 */
+position: absolute;
+width: 34px;
+height: 97px;
+left: 570px;
+top: 2482px;
+}
+
+.section3-articles-title p:nth-child(1){
+/* Bannana */
+
+
+position: absolute;
+width: 60px;
+height: 18px;
+left: 405px;
+top: 2313px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+}
+.section3-articles-title p:nth-child(2){
+/* Banana Bread */
+
+
+position: absolute;
+width: 93px;
+height: 18px;
+left: 558px;
+top: 2353px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+}
+.section3-articles-title p:nth-child(3){
+/* Taco 5 Ripe */
+
+
+position: absolute;
+width: 75px;
+height: 18px;
+left: 398px;
+top: 2560px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+}
+.section3-articles-title p:nth-child(4){
+/* Flavour Mild */
+
+
+position: absolute;
+width: 79px;
+height: 18px;
+left: 565px;
+top: 2600px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+}
+
+.articles-grey-text p:nth-child(1){
+/* Without skin */
+position: absolute;
+width: 80px;
+height: 18px;
+left: 395px;
+top: 2336px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+opacity: 0.4;
+}
+.articles-grey-text p:nth-child(2){
+    /* Backing Mix */
+
+
+position: absolute;
+width: 79px;
+height: 18px;
+left: 565px;
+top: 2376px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+opacity: 0.4;
+}
+.articles-grey-text p:nth-child(3){
+    /* Ready Bananas */
+
+
+position: absolute;
+width: 102px;
+height: 18px;
+left: 384px;
+top: 2583px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+opacity: 0.4;
+}
+.articles-grey-text p:nth-child(4){
+    /* Plant based */
+
+
+position: absolute;
+width: 77px;
+height: 18px;
+left: 566px;
+top: 2623px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #0B0736;
+
+opacity: 0.4;
+}
+
+
+
+
+/* SECTION 4 */
+.section-4{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.section-4 h2{
+    /* Calories tracking. */
+
+
+position: absolute;
+width: 388px;
+height: 126px;
+left: 280px;
+top: 2982px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 68px;
+line-height: 63px;
+/* or 93% */
+
+letter-spacing: -0.02em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+
+.section-4 h2+p{
+    /* Our Well Balanced goal is the one we recommend for most people. However, if you have specific dietary requirements. */
+
+
+position: absolute;
+width: 397px;
+height: 136px;
+left: 280px;
+top: 3151px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+
+
+.phone-section4{
+
+position: absolute;
+width: 266px;
+height: 576px;
+left: 920px;
+top: 2781px;
+}
+
+
+.yellow-circle-section-3{
+    /* Ellipse 2 */
+
+position: absolute;
+width: 501px;
+height: 501px;
+left: 819px;
+top: 2944px;
+border-radius: 290px;
+
+/* #FECFD0 */
+background: #FECFD0;
+
+}
+
+#rectangle-bleu-text-light-section4{
+/* Get on the */
+
+
+position: absolute;
+width: 68px;
+height: 35px;
+left: 340px;
+top: 3340px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* identical to box height, or 249% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+
+opacity: 0.4;
+}
+
+#rectangle-bleu-text-bold-section4{
+/* App Store */
+
+
+position: absolute;
+width: 88px;
+height: 35px;
+left: 340px;
+top: 3361px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 35px;
+/* identical to box height, or 183% */
+
+letter-spacing: -0.01em;
+
+/* #130F49 */
+
+color: #130F49;
+}
+
+.rectangle-bleu-section4{
+    /* Rectangle 3 */
+
+
+position: absolute;
+width: 186px;
+height: 76px;
+left: 280px;
+top: 3332px;
+
+/* #CCE8FD */
+
+background: #CCE8FD;
+border-radius: 20px;
+}
+
+.section5{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.section5 img{
+    position: absolute;
+width: 1200px;
+height: 80px;
+left: 160px;
+top: 3556px;
+}
+
+
+.section6{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+#rectangle-section6{
+    position: absolute;
+width: 1356px;
+height: 643px;
+left: 122px;
+top: 3850px;
+
+/* #D9F4FF */
+
+background: #D9F4FF;
+border-radius: 56px;
+}
+
+.section6 h2{
+    /* Join free for 7 days */
+
+position: absolute;
+width: 513px;
+height: 126px;
+left: 277px;
+top: 3927px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 68px;
+line-height: 63px;
+/* or 93% */
+letter-spacing: -0.02em;
+
+/* #130F49 */
+color: #130F49;
+
+
+}
+
+.rectangle-bleu-section6{
+    position: absolute;
+width: 186px;
+height: 76px;
+left: 277px;
+top: 4103px;
+margin-bottom: 10px;
+
+/* #130F49 */
+
+background: #130F49;
+border-radius: 20px;
+}
+
+#rectangle-bleu-text-light-section6{
+    /* Get on the */
+
+
+position: absolute;
+width: 68px;
+height: 35px;
+left: 337px;
+top: 4111px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 35px;
+/* identical to box height, or 249% */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+opacity: 0.4;
+}
+
+#rectangle-bleu-text-bold-section6{
+    /* App Store */
+
+
+position: absolute;
+width: 88px;
+height: 35px;
+left: 337px;
+top: 4132px;
+
+font-family: 'Euclid Circular B';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 35px;
+/* identical to box height, or 183% */
+
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
+
+#dashboard{
+    position: absolute;
+    width: 544px;
+    height: 623px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+#lien-maquette{
+    font-size: 16px;
+    color:azure;
+    text-align: center;
+left: 277px;
+top: 4350px;
+padding:10px;
+background-color:#130F49;
+border-radius: 6px;
+}
+
